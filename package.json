@@ -1,7 +1,7 @@
 {
-  "name": "code-challenge-javascript-day-18",
+  "name": "code-challenge-javascript-day-19",
   "version": "1.0.0",
-  "description": "javascript code challenge day 18. Armstrong numbers",
+  "description": "javascript code challenge day 19. Series",
   "main": "index.js",
   "dependencies": {
     "jest": "^26.0.1"
@@ -12,23 +12,23 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DevCbenin/code-challenge-javascript-day-18.git"
+    "url": "git+https://github.com/DevCbenin/code-challenge-javascript-day-19.git"
   },
   "keywords": [
     "12 days",
     "algorithm",
     "challenge",
-    "leap",
+    "Series",
     "test",
     "javascript",
     "facebook",
     "devc",
     "benin"
   ],
-  "author": "samson-ehigiator",
+  "author": "damilare-sanusi",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/DevCbenin/code-challenge-javascript-day-18/issues"
+    "url": "https://github.com/DevCbenin/code-challenge-javascript-day-19/issues"
   },
-  "homepage": "https://github.com/DevCbenin/code-challenge-javascript-day-18#readme"
+  "homepage": "https://github.com/DevCbenin/code-challenge-javascript-day-19#readme"
 }
