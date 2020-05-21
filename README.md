@@ -1,15 +1,25 @@
-# Armstrong Numbers
+# Series
 
-An [Armstrong number](https://en.wikipedia.org/wiki/Narcissistic_number) is a number that is the sum of its own digits each raised to the power of the number of digits.
+Given a string of digits, output all the contiguous substrings of length `n` in
+that string in the order that they appear.
 
-For example:
+For example, the string "49142" has the following 3-digit series:
 
-- 9 is an Armstrong number, because `9 = 9^1 = 9`
-- 10 is *not* an Armstrong number, because `10 != 1^2 + 0^2 = 1`
-- 153 is an Armstrong number, because: `153 = 1^3 + 5^3 + 3^3 = 1 + 125 + 27 = 153`
-- 154 is *not* an Armstrong number, because: `154 != 1^3 + 5^3 + 4^3 = 1 + 125 + 64 = 190`
+- "491"
+- "914"
+- "142"
 
-Write some code to determine whether a number is an Armstrong number.
+And the following 4-digit series:
+
+- "4914"
+- "9142"
+
+And if you ask for a 6-digit series from a 5-digit string, you deserve
+whatever you get.
+
+Note that these series are only required to occupy *adjacent positions*
+in the input; the digits need not be *numerically consecutive*.
+
 
 ## Making the test suite pass
 
